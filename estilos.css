@@ -63,7 +63,10 @@
 
 /* header */
 
-<<<<<<< Updated upstream
+header {
+    display: flex;
+}
+
 .logotopo {
     width: 400px;
     height: 150px;
@@ -83,7 +86,7 @@
     width: 50px;
     height: 70px;
 }
-=======
+
 /* Estilos para o rodapé */
 footer {
     background-color: #fff;
@@ -114,4 +117,3 @@ footer {
   
   /* Outros estilos, conforme necessário */
   
->>>>>>> Stashed changes
