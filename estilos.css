@@ -1,6 +1,6 @@
 /* Carroussel da home */
 
-* { margin: 5px; padding: 5px; }
+* { margin: 3px; padding: 3px; }
 
 .slider {
     display: block;
@@ -61,7 +61,12 @@
     z-index: 10;
 }
 
-/* Footer */
+/* header */
+
+.logotopo {
+    width: 400px;
+    height: 150px;
+}
 
 .home {
     width: 50px;
