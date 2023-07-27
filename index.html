@@ -14,44 +14,55 @@
   <!-- ___________________________________________________________________ -->
   <!-- Cabeçalho -->
 
-  <header>
-    <img src="assets/logo fundo removido.png" alt="Logo do Parque Aquático">
-    <!-- <h1>Parque Aquático</h1> -->
-    <!-- Links -->
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="atracoes.html">Atrações</a>
-      <a href="contato.html">Formulário de contato</a>
-    </nav>
-    <!-- Barra de pesquisa -->
-    <div class="pesquisa">
-      <input type="text" placeholder="Pesquisar...">
-      <button type="submit">Pesquisar</button>
+ 
+
+  <div class="header">
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <a href="index.html"><img class="logo" src="assets/logo fundo removido.png" alt="logo"  /></a>
+        </div>
+        <nav>
+          <ul id="MenuItems">
+            <img class="icons" src="assets/home.png" alt="">
+            <li><a href="index.html">Home</a></li>
+            <img class="icons"  src="assets/atrações.png" alt="">
+            <li><a href="atracoes.html">conheca o water city</a></li>
+            <img class="icons"  src="assets/contato.png" alt="">
+            <li><a href="contato.html">contato</a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
-  </header>
 
   <!-- ___________________________________________________________________ -->
   <!-- Main -->
 
   <main>
-    <!-- Slides -->
+    <!-- Slider -->
     <ul class="slider">
       <li>
+            <input type="radio" id="slide1" name="slide" checked>
+            <label for="slide1"></label>
             <img src="assets/water park 1.png" />
       </li>
       <li>
+            <input type="radio" id="slide2" name="slide">
+            <label for="slide2"></label>
             <img src="assets/water park 2.png" />
       </li>
       <li>
+            <input type="radio" id="slide3" name="slide">
+            <label for="slide3"></label>
             <img src="assets/water park 3.png" />
       </li>
   </ul>
-  
     <!-- <section class="slides">
       <img src="assets/water park 1.png" alt="Slide 1">
       <img src="assets/water park 2.png" alt="Slide 2">
       <img src="assets/water park 3.png" alt="Slide 3">
     </section> -->
+
     <!-- Principais atrações -->
     <section class="principais">
       <h2>Características</h2>
@@ -94,9 +105,9 @@
   <footer>
     <p>Copyright &copy; 2023 Parque Aquático</p>
     <div class="redes-sociais">
-      <a href="#">Facebook</a>
-      <a href="#">Twitter</a>
-      <a href="#">Instagram</a>
+      <a href="https://www.facebook.com/">Facebook</a>
+      <a href="https://twitter.com/home">Twitter</a>
+      <a href="https://www.instagram.com/">Instagram</a>
     </div>
   </footer>
 
