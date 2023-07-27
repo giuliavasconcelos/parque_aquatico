@@ -1,4 +1,4 @@
-/* Carroussel da home */
+/* Carrossel da home */
 
 * { margin: 3px; padding: 3px; }
 
@@ -63,6 +63,7 @@
 
 /* header */
 
+<<<<<<< Updated upstream
 .logotopo {
     width: 400px;
     height: 150px;
@@ -82,3 +83,35 @@
     width: 50px;
     height: 70px;
 }
+=======
+/* Estilos para o rodapé */
+footer {
+    background-color: #fff;
+    color: #16b3d6;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Estilos para o texto de direitos autorais */
+  footer p {
+    margin: 0;
+  }
+  
+  /* Estilos para as redes sociais */
+  .redes-sociais {
+    margin-top: 10px;
+  }
+  
+  .redes-sociais a {
+    color: #16b3d6;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  
+  .redes-sociais a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Outros estilos, conforme necessário */
+  
+>>>>>>> Stashed changes
