@@ -10,6 +10,8 @@ body, h1, h2, p, form {
     margin-top: 0%;
     position: relative;
     left: 20px;
+    margin-top: 0px;
+    
 }
 
 .navbar {
