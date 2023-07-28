@@ -11,8 +11,8 @@
 
 .slider {
     display: block;
-    height: 293px;
-    width: 600px;
+    height: 250px;
+    width: 800px;
     margin: auto;
     margin-top: 20px;
     position: relative;
@@ -71,7 +71,7 @@
 /* header */
 
 .header {
-    margin-top: -5%;
+    margin-top: -75px;
     position: relative;
 }
 
@@ -163,23 +163,33 @@ footer {
   /* informações */
 
   .boxcaracteristicas {
-    background-color: #3b8dff;
+    background-color: #44c8f9;
     border-radius: 10px;
   }
 
   .boxfuncionamento {
-    background-color: #16b3d6;
+    background-color: #44c8f9;
     border-radius: 10px;
   }
 
   .boxingressos {
-    background-color: blue;
+    background-color: #44c8f9;
     border-radius: 10px;
   }
 
   .boxconquistas {
-    background-color: aqua;
+    background-color: #44c8f9;
     border-radius: 10px;
   }
   
-  
+  .container {
+    display: flex;
+    align-items: center;
+    padding-left: 15%;
+    padding-bottom: -30%;
+    margin-top: 300px;
+  }
+
+  .titulos {
+   color: #DAA520;
+  }
