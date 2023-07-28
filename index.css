@@ -1,6 +1,66 @@
 /* fontes */
 @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Bebas+Neue&display=swap');
 
+/* header */
+
+.header {
+    margin-top: -5%;
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 5px;
+    color: #000000;
+}
+
+nav ul li a:hover {
+    background-color: #3b8dff;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+    transition: 0.5s;
+
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+p {
+    color: #000000;
+}
+
+.logo {
+    width: 400px; 
+    height: 200px;
+}
+
+.icons {
+    width: 50px;
+    height: 65px;
+}
 
 /* Carrossel da home */
 
@@ -68,69 +128,7 @@
     z-index: 10;
 }
 
-/* header */
-
-.header {
-    margin-top: -5%;
-    position: relative;
-}
-
-.navbar {
-    display: flex;
-    align-items: center;
-    padding: 20px;
-}
-
-nav {
-    flex: 1;
-    text-align: right;
-}
-
-nav ul {
-    display: inline-block;
-    list-style-type: none;
-}
-nav ul li {
-    display: inline-block;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    padding: 5px;
-    color: #000000;
-}
-
-nav ul li a:hover {
-    background-color: #3b8dff;
-    padding: 5px;
-    border-radius: 5px;
-    color: #fff;
-    transition: 0.5s;
-
-}
-
-a {
-    text-decoration: none;
-    color: #000000;
-}
-
-p {
-    color: #000000;
-}
-
-.logo {
-    width: 400px; 
-    height: 200px;
-}
-
-.icons {
-    width: 50px;
-    height: 65px;
-}
-
-
-/* Estilos para o rodapé */
+/* footer */
 footer {
     background-color: #fff;
     color: #16b3d6;
