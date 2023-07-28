@@ -3,10 +3,9 @@
 
 /* header */
 
-.header {
+header {
     margin-top: -5%;
-    position: relative;
-}
+}-------------------------------------------------------------------------------
 
 .navbar {
     display: flex;
