@@ -1,0 +1,58 @@
+.header {
+    margin-top: -5px;
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 5px;
+    color: #000000;
+}
+
+nav ul li a:hover {
+    background-color: #3b8dff;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+    transition: 0.5s;
+
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+p {
+    color: #000000;
+}
+
+.logo {
+    width: 400px; 
+    height: 200px;
+}
+
+.icons {
+    width: 50px;
+    height: 65px;
+}
