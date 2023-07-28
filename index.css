@@ -1,4 +1,10 @@
+/* fontes */
+
+  @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Bebas+Neue&display=swap');
+
+
 /* Carrossel da home */
+
 
 * { margin: 3px; padding: 3px; }
 
@@ -152,4 +158,26 @@ footer {
   }
   
   /* Outros estilos, conforme necessário */
+
+  /* informações */
+
+  .boxcaracteristicas {
+    background-color: #3b8dff;
+    border-radius: 10px;
+  }
+
+  .boxfuncionamento {
+    background-color: #16b3d6;
+    border-radius: 10px;
+  }
+
+  .boxingressos {
+    background-color: blue;
+    border-radius: 10px;
+  }
+
+  .boxconquistas {
+    background-color: aqua;
+    border-radius: 10px;
+  }
   
