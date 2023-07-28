@@ -65,6 +65,7 @@
 
 .header {
     margin-top: -5%;
+    position: relative;
 }
 
 .navbar {
@@ -114,7 +115,6 @@ p {
 .logo {
     width: 400px; 
     height: 200px;
-
 }
 
 .icons {
