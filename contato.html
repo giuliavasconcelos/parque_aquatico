@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contato</title>
-  <!-- Favicon -->
-  <link rel="shortcut icon" href="#" type="image/x-icon" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/parte do logo fundo removido.png" type="image/x-icon" />
   <!-- Estilos (Link CSS) -->
   <link rel="stylesheet" href="estilo.css">
 </head>
@@ -14,49 +14,61 @@
   <!-- ___________________________________________________________________ -->
   <!-- Cabeçalho -->
 
-  <header>
-    <img src="images/logo.png" alt="Logo do Parque Aquático">
-    <h1>Parque Aquático</h1>
-    <!-- Links -->
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="atracoes.html">Atrações</a>
-      <a href="contato.html">Formulário de contato</a>
-    </nav>
-    <!-- Barra de pesquisa -->
-    <div class="pesquisa">
-      <!-- <input type="text" placeholder="Pesquisar..."> -->
-      <button type="submit">Pesquisar</button>
-    </div>
-  </header>
+      <header>
+        <div class="header">
+          <div class="container">
+            <div class="navbar">
+              <div class="logo">
+                <a href="index.html"><img class="logo" src="assets/logo fundo removido.png" alt="logo"  /></a>
+              </div>
+              <nav>
+                <ul id="MenuItems">
+                  <a href="index.html"><img class="icons" src="assets/home.png" alt=""></a>
+                  <li><a href="index.html">Home</a></li>
+                  <a href="atracoes.html"><img class="icons"  src="assets/atrações.png" alt=""></a>
+                  <li><a href="atracoes.html">Conheca o water city</a></li>
+                  <a href="contato.html"><img class="icons"  src="assets/contato.png" alt=""></a>
+                  <li><a href="contato.html">Contato</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+  </header>  
 
-  <!-- ___________________________________________________________________ -->
-  <!-- Sessão contato -->
+
 
   <section class="contato">
+    
+    
     <h2>Contato</h2>
     <p>Envie sua mensagem</p>
     
-    <img src="assets/aebbff7b-0f10-4d23-91c0-b893130b38eb.png" alt="">
-    <form action="contact.php" method="post">
-      <input type="text" name="name" placeholder="Nome">
-      <input type="email" name="email" placeholder="E-mail">
-      <input type="message" name="message" placeholder="Mensagem">
-      <input type="submit" value="Enviar">
-    </form>
+    <form action="https://api.staticforms.xyz/submit" method="post">
+      <label>Nome</label>
+      <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
+      <label>Email</label>
+      <input type="email" name="email" placeholder="Digite seu email" autocomplete="off" required>
+      <label>Mensagem</label>
+      <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+      <button type="submit">Enviar</button>
+
+      <input type="hidden" name="accessKey" value="042be0d3-84fa-4ae8-aaed-2434cda72cac">
+      <input type="hidden" name="redirectTo" value="http://127.0.0.1:5501/obrigado.html">
+  </form>
   </section>
 
   <!-- ___________________________________________________________________ -->
   <!-- Rodapé -->
-
+<section class="footer">
   <footer>
-    <p>Copyright &copy; 2023 Parque Aquático</p>
+    <p>Copyright &copy; 2023 Water City</p>
     <div class="redes-sociais">
       <a href="#">Facebook</a>
       <a href="#">Twitter</a>
       <a href="#">Instagram</a>
     </div>
   </footer>
+</section>
 
 </body>
 </html>
