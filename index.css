@@ -1,12 +1,13 @@
 /* fontes */
-
-  @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Bebas+Neue&display=swap');
 
 
 /* Carrossel da home */
 
-
-* { margin: 3px; padding: 3px; }
+* { margin: 3px;
+    padding: 3px; 
+    font-family: 'Sawarabi Gothic', sans-serif;
+}
 
 .slider {
     display: block;
